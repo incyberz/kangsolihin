@@ -1,0 +1,29 @@
+section {
+    min-height: 100vh;
+    border-bottom: #ccc;
+}
+
+/* Mengatur setiap section genap (ke-2, ke-4, dst) */
+/* section:nth-child(even) {
+    background-color: rgba(128, 128, 128, 0.158);
+} */
+
+.text-edu {
+    color: #bad4f3; /* Blue */
+}
+
+.text-tekno {
+    color: #ecb7ec; /* Orange */
+}
+
+.text-agri {
+    color: #9de4b7; /* Green */
+}
+
+.text-sukses {
+    color: #b6d0ee; /* Green */
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
